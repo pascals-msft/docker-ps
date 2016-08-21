@@ -15,4 +15,4 @@ ADD $PACKAGE .
 RUN dpkg -i ./$PACKAGE \
   && rm ./$PACKAGE
 
-ENTRYPOINT powershell
+ENTRYPOINT ["powershell"]
